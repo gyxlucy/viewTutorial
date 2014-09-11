@@ -21,6 +21,7 @@
 		A3CDF19219C15B0A0086DC6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CDF17419C15B0A0086DC6A /* UIKit.framework */; };
 		A3CDF19A19C15B0A0086DC6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3CDF19819C15B0A0086DC6A /* InfoPlist.strings */; };
 		A3CDF19C19C15B0A0086DC6A /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CDF19B19C15B0A0086DC6A /* viewTutorialTests.m */; };
+		A3CDF1A719C15EF70086DC6A /* YGGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CDF1A619C15EF70086DC6A /* YGGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A3CDF19719C15B0A0086DC6A /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		A3CDF19919C15B0A0086DC6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3CDF19B19C15B0A0086DC6A /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		A3CDF1A519C15EF70086DC6A /* YGGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGGrid.h; sourceTree = "<group>"; };
+		A3CDF1A619C15EF70086DC6A /* YGGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				A3CDF18219C15B0A0086DC6A /* Main.storyboard */,
 				A3CDF18519C15B0A0086DC6A /* YGViewController.h */,
 				A3CDF18619C15B0A0086DC6A /* YGViewController.m */,
+				A3CDF1A519C15EF70086DC6A /* YGGrid.h */,
+				A3CDF1A619C15EF70086DC6A /* YGGrid.m */,
 				A3CDF18819C15B0A0086DC6A /* Images.xcassets */,
 				A3CDF17719C15B0A0086DC6A /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3CDF18119C15B0A0086DC6A /* YGAppDelegate.m in Sources */,
+				A3CDF1A719C15EF70086DC6A /* YGGrid.m in Sources */,
 				A3CDF18719C15B0A0086DC6A /* YGViewController.m in Sources */,
 				A3CDF17D19C15B0A0086DC6A /* main.m in Sources */,
 			);
